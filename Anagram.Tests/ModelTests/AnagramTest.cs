@@ -11,7 +11,8 @@ namespace Anagram.Tests
     [TestMethod]
     public void Anagram_CheckAnagram_IsTrue()
     {
-      return;
+      Anagram test = new Anagram() {};
+      Assert.AreEqual(true, test.CheckAnagram("bread", "beard"));
     }
 
   }
