@@ -11,8 +11,8 @@ namespace Anagram.Tests
     [TestMethod]
     public void Anagram_PrimaryInput_DisplaysInput()
     {
-      string myString = "myString";
-      Assert.AreEqual(myString, "myString");
+      AnagramGenerator testPrimaryInput = new AnagramGenerator();
+      Assert.AreEqual("", "");
     }
   }
 }
