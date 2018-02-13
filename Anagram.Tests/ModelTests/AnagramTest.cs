@@ -9,10 +9,10 @@ namespace Anagram.Tests
   public class AnagramTest
   {
     [TestMethod]
-    public void Anagram_PrimaryInput_DisplaysInput()
+    public void Anagram_CheckAnagram_IsTrue()
     {
-      AnagramGenerator testPrimaryInput = new AnagramGenerator();
-      Assert.AreEqual("", "");
+      return;
     }
+
   }
 }
